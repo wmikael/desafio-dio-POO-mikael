@@ -2,7 +2,6 @@ import br.com.desafio.dominio.Curso;
 import br.com.desafio.dominio.Mentoria;
 
 import java.time.LocalDate;
-import java.time.format.DateTimeFormatter;
 
 public class Main {
     public static void main(String[] args) {
@@ -20,8 +19,6 @@ public class Main {
         mentoria.setTitulo("Mentoria de java");
         mentoria.setDescricao("Descrição Mentoria Java");
         mentoria.setData(LocalDate.now());
-
-
 
         System.out.println(curso1);
         System.out.println(curso2);
