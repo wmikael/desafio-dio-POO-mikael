@@ -6,7 +6,6 @@ public abstract class Conteudo {
     private String descricao;
 
     public abstract double calcularXp();
-
     public String getTitulo() {
         return titulo;
     }
