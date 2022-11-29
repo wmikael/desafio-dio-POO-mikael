@@ -1,5 +1,12 @@
+import br.com.desafio.dominio.Curso;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        Curso curso1 = new Curso();
+        curso1.setTitulo("curso java");
+        curso1.setDescricao("descricao curso java");
+        curso1.setCargaHoraria(8);
+
+        System.out.println(curso1);
     }
 }
